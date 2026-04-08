@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    height: auto;
+}
+
+/* NavBar CSS */
+
+.navbar {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    background-color: black;
+    padding: 10px;
+}
+
+.navbar .title {
+    font-size: large;
+    font-weight: 900;
+}
+
+.navbar .ops {
+    display: flex;
+}
+
+.navbar .ops a { 
+    text-decoration: none;
+    color: white;
+    margin-right: 1%;
+}
+
+.navbar .ops a:hover { 
+    text-decoration: underline;
+}
+
+/* Main Content */
+
+.content {
+    text-align: center;
+    padding: 5%;
+}
+
+#form {
+    display: flex;
+    justify-content: center;
+}
