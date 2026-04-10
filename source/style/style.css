@@ -1,33 +1,41 @@
 * {
     margin: 0;
     height: auto;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 /* NavBar CSS */
 
 .navbar {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: white;
-    background-color: black;
-    padding: 10px;
+    padding: 24px;
+
+    background: #06005c;
+    background: linear-gradient(30deg,rgba(4, 0, 31, 1) 0%, rgba(17, 50, 74, 1) 42%, rgba(0, 99, 80, 1) 100%);
+
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-.navbar .title {
+.navbar-title {
+    color: white;
     font-size: large;
     font-weight: 900;
+    padding-bottom: 10px;
 }
 
-.navbar .ops {
+.navbar-ops {
+    color: white;
     display: flex;
 }
 
-.navbar .ops a { 
+.navbar-ops a { 
     text-decoration: none;
     color: white;
     margin-right: 1%;
 }
 
-.navbar .ops a:hover { 
+.navbar-ops a:hover { 
     text-decoration: underline;
 }
 
@@ -35,10 +43,33 @@
 
 .content {
     text-align: center;
-    padding: 5%;
+    margin-top: 5%;
+    margin-right: 26%;
+    margin-left:  26%;
+}
+
+.content .title {
+    margin-bottom: 2.5%;
+}
+
+.inputs {
+    color: white;
+    margin-right: 5%;
+}
+
+.inputs input {
+    margin-bottom: 12%;
 }
 
 #form {
+    border-radius: 1em;
+
+    padding-top: 5%;
+    padding-bottom: 5%;
+    
+    background: linear-gradient(30deg,rgba(4, 0, 31, 1) 0%, rgba(17, 50, 74, 1) 42%, rgba(0, 99, 80, 1) 100%);
     display: flex;
     justify-content: center;
+
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
